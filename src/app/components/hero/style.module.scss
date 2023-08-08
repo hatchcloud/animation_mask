@@ -1,0 +1,31 @@
+@use '../../../app/style/base/default_theme' as color;
+
+.hero{
+    background-color: color.$color_neutral_50;
+}
+
+.text_mask{
+    padding: 2vw 4vw;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+.mask{
+    position: absolute;
+    color: white;
+    mask-image: url(../../../../public/images/mask.svg);
+    background-color: color.$color_neutral_900;
+    mask-repeat: no-repeat;
+    mask-size: 40px;
+    z-index: 1;
+}
+
+.back{
+    position: absolute;
+}
+

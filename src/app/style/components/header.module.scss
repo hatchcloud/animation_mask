@@ -1,0 +1,43 @@
+@use '../base/default_theme' as color;
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    gap: 20px;
+    a{
+        color: color.$color_neutral_600;
+        text-decoration: none;
+    }
+}
+
+.tabs{
+    display: flex;
+    gap: 20px;
+}
+
+.tabs a{
+    padding: 0.2rem 1rem;
+    transition: background-color 0.5s ease;
+    border-radius: 2rem;
+}
+.tabs a:hover{
+    background-color: color.$accent;
+    color: color.$white;
+    display: flex;
+    gap: 20px;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: color.$white;
+}
+
+
+.active{
+    background-color: color.$color_neutral_600;
+    color: color.$white;
+}

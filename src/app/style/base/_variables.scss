@@ -1,0 +1,70 @@
+// screen sizes
+$screen_xs: 380px;
+$screen_s: 640px;
+$screen_m: 768px;
+$screen_l: 1024px;
+$screen_xl: 1280px;
+$screen_2xl: 1536px;
+
+//fonts
+$font_main: 'Outfit', sans-serif;
+
+//font Size
+$font_size_heading_XL_small: 2.55rem;
+$font_size_heading_M_small: 1rem;
+$font_size_heading_L_small: 0.875rem;
+$font_size_body_small: 0.75rem;
+
+$font_size_heading_XL: 4.2rem;
+$font_size_heading_M: 1.125rem;
+$font_size_heading_L: 1.375rem;
+$font_size_body: 1rem;
+
+
+//border radius
+$rounded_xs_small: 0.625rem; 
+$rounded_s_small:  0.625rem; 
+$rounded_m_small:  0.938rem; 
+$rounded_l_small:  1.563rem; 
+$rounded_xl_small: 2.188rem; 
+
+$rounded_xs: 0.625rem; 
+$rounded_s:  1.25rem; 
+$rounded_m:  1.875rem; 
+$rounded_l:  3.75rem; 
+$rounded_xl: 6.875rem; 
+
+//space
+$space_xs_small:  0.625rem; //10px
+$space_s_small: 0.625rem; //10px
+$space_m_small: 0.938rem; //15px
+$space_l_small: 1.563rem; //25px
+$space_xl_small: 1.563rem; //25px
+$space_2xl_small: 2.188rem; //35px
+
+$space_xs:  0.625rem; //10px
+$space_s: 1.25rem; //20px
+$space_m: 1.875rem; //30px
+$space_l: 3.125rem; //50px
+$space_xl: 6.25rem; //100px
+$space_2xl: 6.875rem; //110px
+
+
+//line height
+$line_height_1: 1;
+$line_height_1-2: 1.2;
+$line_height_1-5: 1.5;
+
+//font weight
+$font_weight_default: 400;
+
+//motion
+$time_xs: 150ms;
+$time_s: 200ms;
+$time_m: 300ms;
+$time_l: 500ms;
+$time_xl: 1s;
+
+//height
+$height_nav_s: 1.25rem;
+$height_nav_m: 2.5rem;
