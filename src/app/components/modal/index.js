@@ -5,6 +5,7 @@ import Image from 'next/image';
 import styles from './style.module.scss';
 import gsap from 'gsap'
 
+
 const scaleAnimation = {
   initial: {scale: 0, x:"-50%", y:"-50%"},
   enter: {scale: 1, x:"-50%", y:"-50%", transition: {duration: 0.4, ease: [0.76, 0, 0.24, 1]}},
@@ -34,9 +35,10 @@ export default function index({modal, projects}) {
         <div style={{top: index * -100  + "%"}} className={styles.modalSlider}>
             {   projects.map( (project, index) => {
                     const {src, color} = project;
+                    const urlImga = "../../../../public/images/"
                     return <div className={styles.modal} style={{backgroundColor: color}} key={`modal_${index}`}>
                         <Image 
-                        src={`/images/${src}`}
+                        src={`${urlImga}${src}`}
                         width={300}
                         height={0}
                         alt="image"
