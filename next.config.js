@@ -4,15 +4,12 @@ const nextConfig = {
   swcMinify: true,
   images: {
     formats: ['image/avif', 'image/webp']
+  },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
   }
 }
 
 module.exports = nextConfig
 
 const path = require('path')
- 
-module.exports = {
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
-}
