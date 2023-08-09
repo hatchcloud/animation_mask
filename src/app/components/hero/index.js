@@ -13,7 +13,7 @@ export default function index() {
       <section className={`${styles.hero} center_layout sticky`}>
         <div className={`container`}>
          <motion.div 
-         className={`${styles.mask} ${styles.text_mask}`}
+         className={`container ${styles.mask} ${styles.text_mask}`}
          animate={{
           WebkitMaskPosition: `${x - (size/2)}px ${y - (size/2 + 50)}px`,
           WebkitMaskSize: `${size}px`
@@ -24,7 +24,7 @@ export default function index() {
          Designing SaaS Products that Users Love. I work with startups and brands to craft expressive and engaging solutions for their software needs.
          </p>
          </motion.div>
-         <div className={`${styles.back} ${styles.text_mask}`}>
+         <div className={`container ${styles.back} ${styles.text_mask}`}>
          <p>Designing SaaS Products that Users Love. I work with startups and brands to craft expressive and engaging solutions for their software needs.
          </p>
          </div>
