@@ -19,13 +19,7 @@ export default function Header() {
         />
         <div className={`${styles.content} container container_padding`}>
             <Link href={"/"}>
-            <Image
-            src={"/images/logo_portafolio.svg"}
-            width={110}
-            height={20}
-            alt="Logo Afinia"
-            priority
-            /></Link>
+            <div class="logo-container"></div></Link>
             <div className={`${styles.center} ${styles.tabs}`}>
               <Link href={"/about"} className={pathname === '/about' ? styles.active : ''}> 
                 About

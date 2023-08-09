@@ -305,3 +305,13 @@ top: 80px;
     visibility: visible;
     transition: opacity 500ms ease-in-out, visibility 500ms  ease-in-out
 }
+
+
+.logo-container {
+    width: 140px;   
+    height: 20px;  
+    background-image: url('../../../../public/images/logo_portafolio.svg');   
+    background-size: cover;   
+    background-repeat: no-repeat;  
+    background-position: center;   
+}
