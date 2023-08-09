@@ -11,22 +11,22 @@ export default  function Home() {
   const projects = [
     {
       title: "Logistics App",
-      src: "projects01.png",
+      src: "projects04",
       color: "#403d39"
     },
     {
       title: "Job Search App",
-      src: "projects02.png",
+      src: "projects02",
       color: "#cfdbd5"
     },
     {
       title: "Education Platform",
-      src: "projects03.png",
+      src: "projects03",
       color: "#495867"
     },
     {
       title: "Payment gateway",
-      src: "projects04.png",
+      src: "projects01",
       color: "#333533"
     }
   ]

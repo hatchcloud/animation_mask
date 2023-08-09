@@ -37,12 +37,7 @@ export default function index({modal, projects}) {
                     const {src, color} = project;
                     const urlImga = "../../../../public/images/"
                     return <div className={styles.modal} style={{backgroundColor: color}} key={`modal_${index}`}>
-                        <Image 
-                        src={`${urlImga}${src}`}
-                        width={300}
-                        height={0}
-                        alt="image"
-                        />
+                      <div className={`image-container ${src}`}></div>
                     </div>
                 })
             }

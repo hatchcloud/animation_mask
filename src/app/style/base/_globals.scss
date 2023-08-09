@@ -315,3 +315,16 @@ top: 80px;
     background-repeat: no-repeat;  
     background-position: center;   
 }
+
+.image-container {
+    width: 300px;  
+    height: 70%;  
+    background-size: cover;  
+    background-repeat: no-repeat;   
+    background-position: center;   
+}
+
+.projects01{ background-image: url('../../../../public/images/projects01.png');}
+.projects02{ background-image: url('../../../../public/images/projects02.png');}
+.projects03{ background-image: url('../../../../public/images/projects03.png');}
+.projects04{ background-image: url('../../../../public/images/projects04.png');}
